@@ -51,13 +51,13 @@ class App extends React.Component {
     if (strikeCount === 0) {
       this.setState({
         ...this.state,
-        strikes: strikeCount + 2
+        strikes: strikeCount + 1
       })
     }
     else if (strikeCount === 1) {
       this.setState({
         ...this.state,
-        strikes: 2
+        strikes: strikeCount + 1
       })
     }
     else if (strikeCount === 2) {
